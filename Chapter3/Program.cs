@@ -71,7 +71,7 @@ namespace Chapter3
             q+1, …, q+k-1} of a given 32-bit unsigned integer.*/
 
 
-          Console.WriteLine("--------Question1-------");
+          /*Console.WriteLine("--------Question1-------");
           Console.WriteLine("Enter number to display if it is odd or even:");
           int number = int.Parse(Console.ReadLine());
           Console.Clear();
@@ -88,10 +88,10 @@ namespace Chapter3
           Console.WriteLine();
 
           Console.WriteLine("--------Question3-------");
-          int  number1  = 13754;
-          bool isSeven = true;
+          
+          int[] isSeven = new int[]{1,3,8,5,4};
 
-          if(isSeven)
+          if(isSeven[2] == 7)
           {
             Console.WriteLine("The third digit is seven");
           }
@@ -105,29 +105,22 @@ namespace Chapter3
           
           Console.WriteLine("--------Question4-------");
 
-
-
-
-
-
-
-
-
-
+          int n = 451;
+          Console.WriteLine($"The third bit of {n} is 1? {((n >> 3) & 1) == 1}");
           
           Console.WriteLine("--------Question5-------");
-          Console.WriteLine("Enter a:");
-          double a = double.Parse(Console.ReadLine());
-          Console.Clear();
-          Console.WriteLine("Enter b:");
-          double b = double.Parse(Console.ReadLine());
-          Console.Clear();
-          Console.WriteLine("Enter h:");
-          double h = double.Parse(Console.ReadLine());
-          Console.Clear();
-          double S =((a + b) * (h / 2));
-          Console.WriteLine($"The area of the trapezoid a={a} and b={b} and h={h} is:{S}cm^2.");
-          Console.WriteLine();
+         Console.WriteLine("Enter a:");
+         double a = double.Parse(Console.ReadLine());
+         Console.Clear();
+         Console.WriteLine("Enter b:");
+         double b = double.Parse(Console.ReadLine());
+         Console.Clear();
+         Console.WriteLine("Enter h:");
+         double h = double.Parse(Console.ReadLine());
+         Console.Clear();
+         double S =((a + b) * (h / 2));
+         Console.WriteLine($"The area of the trapezoid a={a} and b={b} and h={h} is:{S}cm^2.");
+         Console.WriteLine();
 
          Console.WriteLine("--------Question6-------");
          Console.WriteLine("Enter length:");
@@ -169,12 +162,9 @@ namespace Chapter3
          bool isInsideTheCircle = (x1 * x1) + (y1 * y1) <= 25;
          bool outOfRectangle = (x1 < -1 && x1 > 5) && (y1 < 1 && y1 > 5);
          bool isInsideAndOutOfRectangle = isInsideTheCircle && outOfRectangle ? true : false;
+         if(isInsideAndOutOfRectangle)
          Console.WriteLine($"The point ({x},{y}) is inside the cirle and out of the rectangle:{isInsideAndOutOfRectangle}");
-
-
-
-
-
+         
          Console.WriteLine("--------Question10-------");
          Console.WriteLine("Enter four digits number :");
          string num = Console.ReadLine();
@@ -188,6 +178,55 @@ namespace Chapter3
          Console.WriteLine($"Puts the last digit in the first position :{fourth}{first}{second}{third}");
          Console.WriteLine($"Exchanges the second and third digits :{first}{third}{second}{fourth}");
          Console.WriteLine();
+
+         Console.WriteLine("--------Question11-------");
+         int k = 351, p = 6, i = 1, m = i << p;
+         Console.WriteLine((k & m) != 0 ? "Third bit is 1" : "Third bit is 0");
+         Console.WriteLine();
+
+         Console.WriteLine("--------Question12-------");
+         int v = 85;
+         int position = 2;
+         int mask = 1 << position;
+         bool isOne = (v & mask) != 0 ? true : false;
+         Console.WriteLine($"The bit at position {position} of number {v} is 1? {isOne} ");
+         Console.WriteLine();
+
+         Console.WriteLine("--------Question13-------");
+         int g = 350;
+         int h = 0;
+         int i = 3;
+         g = (h == 0) ? g = g & (~(1 << i)): g = g | (1 << i);
+         Console.WriteLine();
+
+         Console.WriteLine("--------Question14-------");
+         int counter = 0;
+         Console.WriteLine("Enter a number:");
+         int numberInput = int.Parse(Console.ReadLine());
+
+         for(int i = 1; i <= numberInput; i++)
+         {
+          if( numberInput % i == 0)
+          {
+            counter++;
+          }
+
+         }
+         if( counter == 2)
+         {
+          Console.WriteLine($"{numberInput} is a prime Number");
+         }
+         else
+         {
+           Console.WriteLine($"{numberInput} is not a prime Number");
+         }*/
+
+         Console.WriteLine("-------Question16------");
+
+
+
+
+
          
 
 
@@ -218,6 +257,15 @@ namespace Chapter3
 
 
 
+        }
+
+        static double AddSum()
+        {
+            double a = 0;
+            double oldSum;
+            int i = 1;
+
+            
         }   
     }
 }

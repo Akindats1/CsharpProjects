@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.AssemblyInfo.cs
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CsharpProjects\Chapter7\bin\Debug\net5.0\Chapter7.exe
+C:\Users\user\Desktop\CsharpProjects\Chapter7\bin\Debug\net5.0\Chapter7.deps.json
+C:\Users\user\Desktop\CsharpProjects\Chapter7\bin\Debug\net5.0\Chapter7.runtimeconfig.json
+C:\Users\user\Desktop\CsharpProjects\Chapter7\bin\Debug\net5.0\Chapter7.runtimeconfig.dev.json
+C:\Users\user\Desktop\CsharpProjects\Chapter7\bin\Debug\net5.0\Chapter7.dll
+C:\Users\user\Desktop\CsharpProjects\Chapter7\bin\Debug\net5.0\ref\Chapter7.dll
+C:\Users\user\Desktop\CsharpProjects\Chapter7\bin\Debug\net5.0\Chapter7.pdb
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.dll
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\ref\Chapter7.dll
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.pdb
+C:\Users\user\Desktop\CsharpProjects\Chapter7\obj\Debug\net5.0\Chapter7.genruntimeconfig.cache

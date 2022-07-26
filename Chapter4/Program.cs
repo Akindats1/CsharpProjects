@@ -55,7 +55,7 @@ namespace Chapter4
         //  the following sequence: 1 + 1/2 - 1/3 + 1/4 - 1/5 + 
 
 
-        /*Console.WriteLine("------Question 1-----");
+        Console.WriteLine("------Question 1-----");
         Console.WriteLine("This program add three numbers and print their sum.");
         Console.WriteLine("Enter first number:");
         double firstNum = double.Parse(Console.ReadLine());
@@ -148,7 +148,7 @@ namespace Chapter4
         greatestNumber = Math.Max(firstNo , secondNo);
         Console.WriteLine($"The greatest number is :{greatestNumber}");*/
 
-        /*Console.WriteLine("-------------\"Question 7\"----------");
+        Console.WriteLine("-------------\"Question 7\"----------");
         int sum = 0;
         for(int i = 0; i <= 4; i++)
         {
@@ -228,7 +228,7 @@ namespace Chapter4
          {
             Console.Write(i);
             
-         }*/
+         }
 
          Console.WriteLine("--------\"Question 11\"---------");
            uint firstNumber = 0, secondNumber = 1, nextNumber,number = 100;
@@ -243,7 +243,14 @@ namespace Chapter4
                 firstNumber = secondNumber;
                 secondNumber = nextNumber;
             }
-            Console.
+            Console.WriteLine();
+
+            Console.WriteLine("------Question 12-----");
+            Console.WriteLine("Enter number: ");
+            int n = int.Parse(Console.ReadLine());
+            double sum = n + AddSum();
+            Console.WriteLine("The sum is {0:N3}" , sum);
+
 
          
         
@@ -302,6 +309,22 @@ namespace Chapter4
 
 
 
+        }
+
+        static double AddSum()
+        {
+            double a = 0;
+            double oldValue;
+            int i = 1;
+
+            do
+            {
+                oldValue = a;
+                a += (i % 2 == 0) ? (double)-1 / (i + 1) : (double)1 / (i + 1);
+                i++;
+
+            } while (!( i != 1 && Math.Abs(a - oldValue) < 0.0001));
+            return a;
         }
     }
 }

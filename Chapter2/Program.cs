@@ -140,21 +140,7 @@ namespace Chapter2
              Console.WriteLine($"a:{a2} and b:{b2}");
 
 
-             
-         Console.WriteLine("--------Question10-------");
-         Console.WriteLine("Enter four digits number :");
-         string num = Console.ReadLine();
-         int first = Convert.ToInt32(num[0].ToString());
-         int second = int.Parse(num[1].ToString());
-         int third = int.Parse(num[2].ToString());
-         int fourth = int.Parse(num[3].ToString());
          
-         Console.WriteLine($"Calculates the sum of the four digits: {first + second + third + fourth}");
-         Console.WriteLine($"Prints on the console the number in reversed order : {fourth}{third}{second}{first}");
-         Console.WriteLine($"Puts the last digit in the first position : {fourth}{first}{second}{third}");
-         Console.WriteLine($"Exchanges the second and third digits : {first}{third}{second}{fourth}");
-         Console.WriteLine();
-
 
 
 

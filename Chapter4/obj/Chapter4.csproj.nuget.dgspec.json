@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj": {}
+    "C:\\Users\\user\\Desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj": {
+    "C:\\Users\\user\\Desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj",
         "projectName": "Chapter4",
-        "projectPath": "C:\\Users\\user\\desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\CsharpProjects\\Chapter4\\Chapter4.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\desktop\\CsharpProjects\\Chapter4\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CsharpProjects\\Chapter4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
