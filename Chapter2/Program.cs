@@ -13,26 +13,26 @@ namespace Chapter2
               //4825932; 97; -10000; 20000; 224; 970,700,000; 112; -44; -1,000,000; 
               //1990; 123456789123456789;
 
-              /*sbyte firstNum = 52,97,-44,-115;
+              sbyte firstNum = 52,97,-44,-115;
               byte secondNum2 = 130,224,112;
               short thirdNum3 = -10000,1990;
               ushort fourthNum4 = 4825932U;
               int fifthNum5 = -1000000 ;
               uint sixthNum6 = 20000U ;
               long seventhNum7 = 9707000000 ;
-              ulong eightNum8 = 123456789123456789U;*/
+              ulong eightNum8 = 123456789123456789U;
         
 
              //2. Which of the following values can be assigned to variables of type float, 
              //double and decimal: 5, -5.01, 34.567839023; 12.345; 8923.1234857;
              //3456.091124875956542151256683467?
 
-             /*float firstNumber = 5f;
+             float firstNumber = 5f;
              float secondNumber2 = -5.01f;
              float thirdNumber3 =12.345f;
              double fourthNumber4 = 34.567839023;
              double fifthNumber5 = 8923.1234857;
-             decimal sixthNumber6 = 3456.091124875956542151256683467m;*/
+             decimal sixthNumber6 = 3456.091124875956542151256683467m;
 
 
              //Write a program, which compares correctly two real numbers with 
@@ -83,10 +83,10 @@ namespace Chapter2
                 type casting)*/
 
                 
-             // string firstWord ="Hello";
-             // string secondWord ="World";
-             // object statement = firstWord + " " + secondWord;
-             // string bothWord = statement.ToString();
+             string firstWord ="Hello";
+             string secondWord ="World";
+             object statement = firstWord + " " + secondWord;
+             string bothWord = statement.ToString();
 
              //Declare two variables of type string and assign them a value “The 
              //"use" of quotations causes difficulties.” (without the outer quotes). 
@@ -116,18 +116,18 @@ namespace Chapter2
              Console.WriteLine(" @    @    ");
              Console.WriteLine("@@@@@@@   ");
 
-            /* A company dealing with marketing wants to keep a data record of its 
+             /* A company dealing with marketing wants to keep a data record of its 
              employees. Each record should have the following characteristic – first 
              name, last name, age, gender (‘m’ or ‘f’) and unique employee number 
              (27560000 to 27569999). Declare appropriate variables needed to 
              maintain the information for an employee by using the appropriate data 
              types and attribute names.*/
 
-             /*string firstName;
+             string firstName;
              string lastname;
              byte age;
              char gender;
-             int employeeNumber;*/
+             int employeeNumber;
 
              // Declare two variables of type int. Assign to them values 5 and 10 
              // respectively. Exchange (swap) their values and print them.

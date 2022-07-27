@@ -6,7 +6,7 @@ namespace Chapter6
     {
         static void Main(string[] args)
         {
-            /*Console.WriteLine("Chapter 6!");
+            Console.WriteLine("Chapter 6!");
 
           //  1. Write a program that prints on the console the numbers from 1 to N. 
           //  The number N should be read from the standard input.
@@ -67,16 +67,15 @@ namespace Chapter6
                 }
             }
             Console.WriteLine($"The largest is {largest} and the smallest is {smallest}");
-        
-
-         }
+            
+        }
 
          // 4. Write a program that prints all possible cards from a standard deck
          // of cards, without jokers (there are 52 cards: 4 suits of 13 cards)
-        //   Number the cards from 2 to 14 (these numbers will match the cards 2, 
-        //     3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A). Number the suits from 1 to 4 (1 –
-        //     club, 2 – diamond, 3 – heart and 4 – spades). Now you can use the two
-        //     nested loops and print each of the cards with two switch statements.
+         //   Number the cards from 2 to 14 (these numbers will match the cards 2, 
+         //     3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A). Number the suits from 1 to 4 (1 –
+         //     club, 2 – diamond, 3 – heart and 4 – spades). Now you can use the two
+         //     nested loops and print each of the cards with two switch statements.
 
          Console.WriteLine("----Question 4-----");
 
@@ -148,9 +147,9 @@ namespace Chapter6
             }
          }
 
-        //  5. Write a program that reads from the console number N and print the sum 
-        //     of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 
-        //     13, 21, 34, 55, 89, 144, 233, 377, …
+         //  5. Write a program that reads from the console number N and print the sum 
+         //     of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 
+         //     13, 21, 34, 55, 89, 144, 233, 377, …
 
          Console.WriteLine("-----Question 5------");
           uint firstNumber = 0, secondNumber = 1, nextNumber;
@@ -191,67 +190,67 @@ namespace Chapter6
 
          Console.WriteLine($"Result is {n}");
 
-        //  Console.WriteLine("-----Question 7-----");
-        //  Console.Write("Enter N: (1<K<N)");
-        //  int n = int.Parse(Console.ReadLine());
-        //  Console.Write("Enter K: (1<K<N)");
-        //  int k = int.Parse(Console.ReadLine());
-        //  int nMinusK = n - k;
+         Console.WriteLine("-----Question 7-----");
+         Console.Write("Enter N: (1<K<N)");
+         int n = int.Parse(Console.ReadLine());
+         Console.Write("Enter K: (1<K<N)");
+         int k = int.Parse(Console.ReadLine());
+         int nMinusK = n - k;
 
-        //  for(int i = n - 1; i > 0; i--)
-        //  {
-        //     n *= i;
-        //  }
+         for(int i = n - 1; i > 0; i--)
+         {
+            n *= i;
+         }
 
-        //   for(int i = k - 1; i > 0; i--)
-        //  {
-        //     k *= i;
-        //  }
-        //   for(int i = nMinusK - 1; i > 0; i--)
-        //  {
-        //     n *= i;
-        //  }
+          for(int i = k - 1; i > 0; i--)
+         {
+            k *= i;
+         }
+          for(int i = nMinusK - 1; i > 0; i--)
+         {
+            n *= i;
+         }
 
          
-        //  Console.WriteLine($"The result is {n * k / nMinusK}");
+         //  Console.WriteLine($"The result is {n * k / nMinusK}");
 
-        //  8. In combinatorics, the Catalan numbers are calculated by the following 
-        //         formula:
-        //        , for n ≥ 0. Write a program that 
-        //         calculates the nth Catalan number by given 
+         //  8. In combinatorics, the Catalan numbers are calculated by the following 
+         //         formula:
+         //        , for n ≥ 0. Write a program that 
+         //         calculates the nth Catalan number by given 
 
-        Console.WriteLine("------Question 8-----");
-        Console.WriteLine("Enter N: (N >= 0) ");
-        int num = int.Parse(Console.ReadLine());
+         Console.WriteLine("------Question 8-----");
+         Console.WriteLine("Enter N: (N >= 0) ");
+         int num = int.Parse(Console.ReadLine());
 
-        int factorial2N = 2 * num , factorialNplus1 = num + 1;
+         int factorial2N = 2 * num , factorialNplus1 = num + 1;
 
-        for(int i = factorial2N - 1; i > 0; i--)
-        factorial2N *= i;
-        for(int i = factorialNplus1 - 1; i > 0; i--)
-        factorialNplus1 *= i;
-        for(int i = n - 1; i > 0; i--)
-        n *= i;
+         for(int i = factorial2N - 1; i > 0; i--)
+         factorial2N *= i;
+         for(int i = factorialNplus1 - 1; i > 0; i--)
+         factorialNplus1 *= i;
+         for(int i = n - 1; i > 0; i--)
+         n *= i;
 
-        Console.WriteLine($"The result is {factorial2N / (factorialNplus1 * n)}");
-        Console.WriteLine();
+         Console.WriteLine($"The result is {factorial2N / (factorialNplus1 * n)}");
+         Console.WriteLine();
 
-        // 9. Write a program that for a given integers n and x, calculates the sum: 
+         // 9. Write a program that for a given integers n and x, calculates the sum: 
 
-        Console.WriteLine("------Question 9-----");
-        int sum = 1, temp = 1;
-        Console.WriteLine("Enter n: ");
-        int n = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter x: ");
-        int x = int.Parse(Console.ReadLine());
+         Console.WriteLine("------Question 9-----");
+         int sum = 1, temp = 1;
+         Console.WriteLine("Enter n: ");
+         int n = int.Parse(Console.ReadLine());
+         Console.WriteLine("Enter x: ");
+         int x = int.Parse(Console.ReadLine());
         
-        for(int i = 1; i <= n; i++)
-        {
+         for(int i = 1; i <= n; i++)
+         {
             temp *= i / x;
             sum += temp;
-        }
+         }
 
-        Console.WriteLine($"The result is {sum}");
+         Console.WriteLine($"The result is {sum}");
 
          Console.WriteLine("------Question 10-----");
          Console.WriteLine("Enter N: (N < 20) ");
@@ -266,10 +265,10 @@ namespace Chapter6
             Console.WriteLine();
          }
 
-        //  11. Write a program that calculates with how many zeroes the factorial of 
-        //      a given number ends. Examples:
-        //      N = 10 -> N! = 3628800 -> 2
-        //      N = 20 -> N! = 2432902008176640000 -> 4
+         //  11. Write a program that calculates with how many zeroes the factorial of 
+         //      a given number ends. Examples:
+         //      N = 10 -> N! = 3628800 -> 2
+         //      N = 20 -> N! = 2432902008176640000 -> 4
          
          Console.WriteLine("------Question 11-----");
          Console.Write("Enter N: ");
@@ -300,7 +299,7 @@ namespace Chapter6
 
          // 13. Write a program that converts a given number from binary to decimal notation.
 
-        Console.WriteLine("------Question 13-----");
+         Console.WriteLine("------Question 13-----");
          Console.Write("Enter binary number: ");
          int binaryValue = int.Parse(Console.ReadLine());
          int decimalValue = Convert.ToInt32(binaryValue.ToString(), 2);           
@@ -365,7 +364,7 @@ namespace Chapter6
 
          if (a == 0) Console.WriteLine(b);
          else Console.WriteLine(a);
-         Console.WriteLine();*/
+         Console.WriteLine();
 
          Console.WriteLine("-----Question 18------");
          int[,] matrix =

@@ -71,7 +71,7 @@ namespace Chapter3
             q+1, …, q+k-1} of a given 32-bit unsigned integer.*/
 
 
-          /*Console.WriteLine("--------Question1-------");
+          Console.WriteLine("--------Question1-------");
           Console.WriteLine("Enter number to display if it is odd or even:");
           int number = int.Parse(Console.ReadLine());
           Console.Clear();
@@ -219,7 +219,7 @@ namespace Chapter3
          else
          {
            Console.WriteLine($"{numberInput} is not a prime Number");
-         }*/
+         }
 
          Console.WriteLine("-------Question16------");
 
